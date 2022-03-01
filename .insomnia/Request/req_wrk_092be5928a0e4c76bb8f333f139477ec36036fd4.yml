@@ -1,0 +1,25 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ec36036fd4
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ec971c419d
+modified: 1646176922104
+created: 1646176922104
+url: "{{ base_url }}/deploys/{{ deploy_id }}/files/{{ path }}"
+name: /deploys/{deploy_id}/files/{path}
+description: ""
+method: PUT
+body:
+  mimeType: application/octet-stream
+parameters:
+  - name: size
+    disabled: true
+    value: "0"
+headers: []
+authentication: {}
+metaSortKey: -1646176922104
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ecb7ebcf96
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ec411553b9
+modified: 1646176922095
+created: 1646176922095
+url: "{{ base_url }}/accounts"
+name: /accounts
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "string",
+      "type_id": "string",
+      "payment_method_id": "string",
+      "period": "string",
+      "extra_seats_block": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646176922095
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

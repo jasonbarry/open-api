@@ -1,0 +1,34 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ec460fbb4d
+type: Request
+parentId: wrk_092be5928a0e4c76bb8f333f139477ec
+modified: 1646176922103
+created: 1646176922103
+url: "{{ base_url }}/deploys/{{ deploy_id }}/plugin_runs"
+name: /deploys/{deploy_id}/plugin_runs
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "package": "string",
+      "version": "string",
+      "state": "string",
+      "reporting_event": "string",
+      "title": "string",
+      "summary": "string",
+      "text": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646176922103
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

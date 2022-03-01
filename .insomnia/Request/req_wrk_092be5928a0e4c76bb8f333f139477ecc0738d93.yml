@@ -1,0 +1,30 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ecc0738d93
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ecc099a42a
+modified: 1646176922097
+created: 1646176922097
+url: "{{ base_url }}/{{ account_slug }}/sites"
+name: /{account_slug}/sites
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: name
+    disabled: true
+    value: string
+  - name: page
+    disabled: true
+    value: "0"
+  - name: per_page
+    disabled: true
+    value: "0"
+headers: []
+authentication: {}
+metaSortKey: -1646176922097
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

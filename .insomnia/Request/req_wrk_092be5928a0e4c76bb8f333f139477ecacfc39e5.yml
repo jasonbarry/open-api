@@ -1,0 +1,21 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ecacfc39e5
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ec80754af9
+modified: 1646176922106
+created: 1646176922106
+url: "{{ base_url }}/{{ account_id }}/builds/status"
+name: /{account_id}/builds/status
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646176922106
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

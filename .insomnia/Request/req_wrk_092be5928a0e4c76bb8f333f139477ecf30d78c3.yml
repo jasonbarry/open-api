@@ -1,0 +1,21 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ecf30d78c3
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ec6bab147e
+modified: 1646176922101
+created: 1646176922101
+url: "{{ base_url }}/hooks/{{ hook_id }}"
+name: /hooks/{hook_id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646176922101
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

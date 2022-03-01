@@ -1,0 +1,21 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ec963dd6c2
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ec4c2e57b2
+modified: 1646176922093
+created: 1646176922093
+url: "{{ base_url }}/sites/{{ site_id }}/service-instances"
+name: /sites/{site_id}/service-instances
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646176922093
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

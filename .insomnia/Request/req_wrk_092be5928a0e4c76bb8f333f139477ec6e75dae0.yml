@@ -1,0 +1,34 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ec6e75dae0
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ecae4406c1
+modified: 1646176922114
+created: 1646176922114
+url: "{{ base_url }}/sites/{{ site_id }}/snippets"
+name: /sites/{site_id}/snippets
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "site_id": "string",
+      "title": "string",
+      "general": "string",
+      "general_position": "string",
+      "goal": "string",
+      "goal_position": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646176922114
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

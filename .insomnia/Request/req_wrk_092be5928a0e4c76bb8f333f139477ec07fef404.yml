@@ -1,0 +1,21 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ec07fef404
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ec4cf5bc59
+modified: 1646176922091
+created: 1646176922091
+url: "{{ base_url }}/services/{{ addonName }}"
+name: /services/{addonName}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646176922091
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

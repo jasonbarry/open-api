@@ -1,0 +1,21 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ec3343d092
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ecc099a42a
+modified: 1646176922119
+created: 1646176922119
+url: "{{ base_url }}/sites/{{ site_id }}"
+name: /sites/{site_id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646176922119
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

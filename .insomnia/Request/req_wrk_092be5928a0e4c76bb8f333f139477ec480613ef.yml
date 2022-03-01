@@ -1,0 +1,21 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ec480613ef
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ec1798ba69
+modified: 1646176922096
+created: 1646176922096
+url: "{{ base_url }}/accounts/types"
+name: /accounts/types
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646176922096
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

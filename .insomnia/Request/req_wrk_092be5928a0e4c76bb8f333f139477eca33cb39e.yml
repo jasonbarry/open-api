@@ -1,0 +1,27 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477eca33cb39e
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ecb0d51b9f
+modified: 1646176922111
+created: 1646176922111
+url: "{{ base_url }}/sites/{{ site_id }}/deploys"
+name: /sites/{site_id}/deploys
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    disabled: true
+    value: "0"
+  - name: per_page
+    disabled: true
+    value: "0"
+headers: []
+authentication: {}
+metaSortKey: -1646176922111
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

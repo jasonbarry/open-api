@@ -1,0 +1,21 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477eca57115a7
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ecb0d51b9f
+modified: 1646176922106
+created: 1646176922106
+url: "{{ base_url }}/sites/{{ site_id }}/rollback"
+name: /sites/{site_id}/rollback
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646176922106
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

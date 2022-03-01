@@ -1,0 +1,21 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ec8c03f89b
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ec6467baa3
+modified: 1646176922097
+created: 1646176922097
+url: "{{ base_url }}/{{ account_slug }}/members"
+name: /{account_slug}/members
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646176922097
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

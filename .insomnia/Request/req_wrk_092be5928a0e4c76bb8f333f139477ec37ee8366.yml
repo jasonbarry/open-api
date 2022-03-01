@@ -1,0 +1,28 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ec37ee8366
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ecffc1b59c
+modified: 1646176922090
+created: 1646176922090
+url: "{{ base_url }}/sites/{{ site_id }}/traffic_splits"
+name: /sites/{site_id}/traffic_splits
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "branch_tests": {}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646176922090
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477eca872de5f
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ec4da0c3de
+modified: 1646176922093
+created: 1646176922093
+url: "{{ base_url }}/submissions/{{ submission_id }}"
+name: /submissions/{submission_id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646176922093
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

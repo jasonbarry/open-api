@@ -1,0 +1,18 @@
+_id: env_c2ff0c8a0b4595edc6cf61746a300b207fb50a0c
+type: Environment
+parentId: wrk_092be5928a0e4c76bb8f333f139477ec
+modified: 1646178316330
+created: 1646176870572
+name: Base environment
+data:
+  scheme: https
+  base_path: /api/v1
+  host: api.netlify.com
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - host
+color: null
+isPrivate: false
+metaSortKey: 1646176870572

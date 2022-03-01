@@ -1,0 +1,21 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ec14129002
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ec29f3315c
+modified: 1646176922108
+created: 1646176922108
+url: "{{ base_url }}/sites/{{ site_id }}/deployed-branches"
+name: /sites/{site_id}/deployed-branches
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646176922108
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

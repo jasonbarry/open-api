@@ -1,0 +1,21 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ec2187472a
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ecb0d51b9f
+modified: 1646176922109
+created: 1646176922109
+url: "{{ base_url }}/sites/{{ site_id }}/deploys/{{ deploy_id }}/restore"
+name: /sites/{site_id}/deploys/{deploy_id}/restore
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646176922109
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

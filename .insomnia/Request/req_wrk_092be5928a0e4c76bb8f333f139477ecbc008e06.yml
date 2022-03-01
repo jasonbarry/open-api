@@ -1,0 +1,34 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ecbc008e06
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ec411553b9
+modified: 1646176922094
+created: 1646176922094
+url: "{{ base_url }}/accounts/{{ account_id }}"
+name: /accounts/{account_id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "string",
+      "slug": "string",
+      "type_id": "string",
+      "extra_seats_block": 0,
+      "billing_name": "string",
+      "billing_email": "string",
+      "billing_details": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646176922094
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

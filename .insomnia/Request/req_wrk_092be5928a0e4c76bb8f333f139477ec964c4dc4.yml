@@ -1,0 +1,21 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ec964c4dc4
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ec0d144012
+modified: 1646176922098
+created: 1646176922098
+url: "{{ base_url }}/deploy_keys/{{ key_id }}"
+name: /deploy_keys/{key_id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646176922098
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

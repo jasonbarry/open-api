@@ -1,0 +1,21 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ecd9c4d8d9
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ecca040b0a
+modified: 1646176922106
+created: 1646176922106
+url: "{{ base_url }}/sites/{{ site_id }}/dns"
+name: /sites/{site_id}/dns
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646176922106
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

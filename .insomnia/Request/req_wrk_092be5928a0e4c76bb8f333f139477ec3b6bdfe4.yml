@@ -1,0 +1,27 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ec3b6bdfe4
+type: Request
+parentId: wrk_092be5928a0e4c76bb8f333f139477ec
+modified: 1646176922103
+created: 1646176922103
+url: "{{ base_url }}/sites/{{ site_id }}/plugin_runs/latest"
+name: /sites/{site_id}/plugin_runs/latest
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: packages
+    disabled: false
+    value: string
+  - name: state
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1646176922103
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

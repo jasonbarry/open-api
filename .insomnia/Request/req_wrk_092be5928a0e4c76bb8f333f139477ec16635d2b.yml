@@ -1,0 +1,28 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ec16635d2b
+type: Request
+parentId: wrk_092be5928a0e4c76bb8f333f139477ec
+modified: 1646176922104
+created: 1646176922104
+url: "{{ base_url }}/sites/{{ site_id }}/plugins/{{ package }}"
+name: /sites/{site_id}/plugins/{package}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "pinned_version": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646176922104
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

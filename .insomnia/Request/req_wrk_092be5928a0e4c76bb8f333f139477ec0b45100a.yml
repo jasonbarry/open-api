@@ -1,0 +1,21 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ec0b45100a
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ecae4406c1
+modified: 1646176922114
+created: 1646176922114
+url: "{{ base_url }}/sites/{{ site_id }}/snippets/{{ snippet_id }}"
+name: /sites/{site_id}/snippets/{snippet_id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646176922114
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

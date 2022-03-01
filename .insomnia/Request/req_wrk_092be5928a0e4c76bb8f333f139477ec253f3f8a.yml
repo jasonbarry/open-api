@@ -1,0 +1,25 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ec253f3f8a
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ec4c2e57b2
+modified: 1646176922093
+created: 1646176922093
+url: "{{ base_url }}/sites/{{ site_id }}/services/{{ addon }}/instances"
+name: /sites/{site_id}/services/{addon}/instances
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{}"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646176922093
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

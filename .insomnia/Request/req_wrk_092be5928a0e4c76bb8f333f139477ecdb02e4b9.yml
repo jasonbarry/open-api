@@ -1,0 +1,21 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ecdb02e4b9
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ec085559ec
+modified: 1646176922112
+created: 1646176922112
+url: "{{ base_url }}/sites/{{ site_id }}/build_hooks"
+name: /sites/{site_id}/build_hooks
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646176922112
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

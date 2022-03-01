@@ -1,0 +1,24 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ecb246a7bc
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ecca040b0a
+modified: 1646176922087
+created: 1646176922087
+url: "{{ base_url }}/dns_zones"
+name: /dns_zones
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: account_slug
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1646176922087
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

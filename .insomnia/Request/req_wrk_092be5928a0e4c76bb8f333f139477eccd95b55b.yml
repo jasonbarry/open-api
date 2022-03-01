@@ -1,0 +1,21 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477eccd95b55b
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ec05fac943
+modified: 1646176922117
+created: 1646176922117
+url: "{{ base_url }}/sites/{{ site_id }}/assets"
+name: /sites/{site_id}/assets
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646176922117
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ec22b853b8
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ecca040b0a
+modified: 1646176922083
+created: 1646176922083
+url: "{{ base_url }}/dns_zones/{{ zone_id }}/dns_records/{{ dns_record_id }}"
+name: /dns_zones/{zone_id}/dns_records/{dns_record_id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646176922083
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

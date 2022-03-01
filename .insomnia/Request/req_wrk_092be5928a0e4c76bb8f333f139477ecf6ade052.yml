@@ -1,0 +1,21 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ecf6ade052
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ec80754af9
+modified: 1646176922107
+created: 1646176922107
+url: "{{ base_url }}/builds/{{ build_id }}"
+name: /builds/{build_id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646176922107
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

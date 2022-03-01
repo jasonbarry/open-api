@@ -1,0 +1,21 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ecc4654559
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ec971c419d
+modified: 1646176922115
+created: 1646176922115
+url: "{{ base_url }}/sites/{{ site_id }}/files/{{ file_path }}"
+name: /sites/{site_id}/files/{file_path}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646176922115
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,35 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ecb2feac52
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ec6bab147e
+modified: 1646176922101
+created: 1646176922101
+url: "{{ base_url }}/hooks/{{ hook_id }}"
+name: /hooks/{hook_id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": "string",
+      "site_id": "string",
+      "type": "string",
+      "event": "string",
+      "data": {},
+      "created_at": "string",
+      "updated_at": "string",
+      "disabled": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646176922101
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

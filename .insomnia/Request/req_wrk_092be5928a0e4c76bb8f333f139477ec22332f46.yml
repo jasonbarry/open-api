@@ -1,0 +1,25 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ec22332f46
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ecc099a42a
+modified: 1646176922120
+created: 1646176922120
+url: "{{ base_url }}/sites/{{ site_id }}"
+name: /sites/{site_id}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646176922120
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

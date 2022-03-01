@@ -1,0 +1,42 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ecb3348df5
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ecb0d51b9f
+modified: 1646176922110
+created: 1646176922110
+url: "{{ base_url }}/sites/{{ site_id }}/deploys"
+name: /sites/{site_id}/deploys
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "files": {},
+      "draft": true,
+      "async": true,
+      "functions": {},
+      "function_schedules": [
+        {
+          "name": "string",
+          "cron": "string"
+        }
+      ],
+      "branch": "string",
+      "framework": "string"
+    }
+parameters:
+  - name: title
+    disabled: true
+    value: string
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646176922110
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

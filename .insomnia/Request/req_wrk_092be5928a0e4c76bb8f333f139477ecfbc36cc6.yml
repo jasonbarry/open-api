@@ -1,0 +1,21 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ecfbc36cc6
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ecca040b0a
+modified: 1646176922086
+created: 1646176922086
+url: "{{ base_url }}/dns_zones/{{ zone_id }}/transfer"
+name: /dns_zones/{zone_id}/transfer
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646176922086
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

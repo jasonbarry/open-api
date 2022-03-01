@@ -1,0 +1,21 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ec578bda5d
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ecffc1b59c
+modified: 1646176922089
+created: 1646176922089
+url: "{{ base_url }}/sites/{{ site_id }}/traffic_splits/{{ split_test_id }}/publish"
+name: /sites/{site_id}/traffic_splits/{split_test_id}/publish
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646176922089
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

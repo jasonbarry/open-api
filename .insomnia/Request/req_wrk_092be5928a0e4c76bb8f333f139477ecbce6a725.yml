@@ -1,0 +1,28 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ecbce6a725
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ecc099a42a
+modified: 1646176922097
+created: 1646176922097
+url: "{{ base_url }}/{{ account_slug }}/sites"
+name: /{account_slug}/sites
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "null"
+parameters:
+  - name: configure_dns
+    disabled: true
+    value: "true"
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646176922097
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

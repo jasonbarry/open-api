@@ -1,0 +1,27 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ec230fad9d
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ec6467baa3
+modified: 1646176922096
+created: 1646176922096
+url: "{{ base_url }}/{{ account_slug }}/members"
+name: /{account_slug}/members
+description: ""
+method: POST
+body: {}
+parameters:
+  - name: role
+    disabled: true
+    value: string
+  - name: email
+    disabled: false
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1646176922096
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

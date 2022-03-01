@@ -1,0 +1,36 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ec1142c9a6
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ecca040b0a
+modified: 1646176922085
+created: 1646176922085
+url: "{{ base_url }}/dns_zones/{{ zone_id }}/dns_records"
+name: /dns_zones/{zone_id}/dns_records
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "type": "string",
+      "hostname": "string",
+      "value": "string",
+      "ttl": 0,
+      "priority": 0,
+      "weight": 0,
+      "port": 0,
+      "flag": 0,
+      "tag": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646176922085
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

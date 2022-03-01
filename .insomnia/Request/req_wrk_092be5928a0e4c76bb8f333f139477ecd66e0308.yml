@@ -1,0 +1,24 @@
+_id: req_wrk_092be5928a0e4c76bb8f333f139477ecd66e0308
+type: Request
+parentId: fld_wrk_092be5928a0e4c76bb8f333f139477ec346d34a0
+modified: 1646176922100
+created: 1646176922100
+url: "{{ base_url }}/oauth/tickets"
+name: /oauth/tickets
+description: ""
+method: POST
+body: {}
+parameters:
+  - name: client_id
+    disabled: false
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1646176922100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
